@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+header {
+    background-color: lightblue;
+    height: 70px;
+}
+
+/* MAIN */
+main {
+    background-color: lightgreen;
+    height: calc( 100vh - 170px);
+    overflow-y: auto;
+}
+
+/* FOOTER */
+footer {
+    background-color: lightcoral;
+    height: 100px;
+}
+
