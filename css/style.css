@@ -10,6 +10,11 @@ body {
     font-family: sans-serif;
 }
 
+.container {
+    width: 87%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 header {
     background-color: black;
@@ -30,8 +35,20 @@ header {
 /* MAIN */
 main {
     background-color: lightgreen;
-    height: calc( 100vh - 170px);
+    height: calc( 100vh - 165px);
     overflow-y: auto;
+}
+
+.card-container {
+    display: flex;
+    background-color: orange;
+    flex-wrap: wrap;
+}
+.card {
+    width: 240px;
+    height: 140px;
+    background-color: pink;
+    margin: 3px;
 }
 
 /* FOOTER */
