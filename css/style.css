@@ -10,9 +10,8 @@ body {
     font-family: sans-serif;
 }
 
-.container {
-    width: 87%;
-    margin: 0 auto;
+img {
+    width: 100%;
 }
 
 /* HEADER */
@@ -34,21 +33,31 @@ header {
 
 /* MAIN */
 main {
-    background-color: lightgreen;
     height: calc( 100vh - 165px);
     overflow-y: auto;
 }
 
 .card-container {
     display: flex;
-    background-color: orange;
+    background-color: black;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card {
     width: 240px;
     height: 140px;
-    background-color: pink;
     margin: 3px;
+    background-image: url("http://picsum.photos/246/146");
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-text {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    width: 95px;
+    font-size: 13px;
 }
 
 /* FOOTER */
