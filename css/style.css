@@ -5,10 +5,26 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+body {
+    font-family: sans-serif;
+}
+
 /* HEADER */
 header {
-    background-color: lightblue;
-    height: 70px;
+    background-color: black;
+    height: 65px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+}
+
+.header-menu span {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 13px;
 }
 
 /* MAIN */
